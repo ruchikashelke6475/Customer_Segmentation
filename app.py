@@ -15,7 +15,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 st.markdown('<style>body{background-color: Blue;}</style>',unsafe_allow_html=True)
 st.title("Prediction")
 
-with st.form("my_form_ruchika"):
+with st.form("my_form"):
     balance=st.number_input(label='Balance',step=0.001,format="%.6f")
     balance_frequency=st.number_input(label='Balance Frequency',step=0.001,format="%.6f")
     purchases=st.number_input(label='Purchases',step=0.01,format="%.2f")
